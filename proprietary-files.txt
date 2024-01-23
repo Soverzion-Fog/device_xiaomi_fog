@@ -1411,6 +1411,14 @@ vendor/bin/cnss-daemon|075855fb8205203a4bc87bf8e21ce62d47579cc1
 vendor/etc/wifi/aoa_cldb_falcon.bin|7511e868c40e66e9758568b7112894cbce2650a4
 vendor/etc/wifi/aoa_cldb_swl14.bin|2a3be07a8f24bc1b9798d07c7133b0f71b77738f
 
+# Vibrator firmware
+vendor/firmware/0_click_P_RTP.bin
+vendor/firmware/1_doubelClick_P_RTP.bin
+vendor/firmware/2_tick_P_RTP.bin
+vendor/firmware/3_thud_P_RTP.bin
+vendor/firmware/4_pop_P_RTP.bin
+vendor/firmware/5_heavyClick_P_RTP.bin
+
 # WiFi Display
 -framework/WfdCommon.jar
 system_ext/bin/wfdservice
