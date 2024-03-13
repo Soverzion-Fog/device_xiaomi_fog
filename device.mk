@@ -180,6 +180,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
     android.hardware.drm-service.clearkey
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
