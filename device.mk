@@ -279,11 +279,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.media.omx@1.0-service \
     android.hardware.media.omx@1.0.vendor \
+    android.hardware.media.c2@1.2.vendor \
     android.media.audio.common.types-V1-cpp \
     android.media.audio.common.types-V2-cpp \
     libavservices_minijail_vendor \
     libavservices_minijail \
     libavservices_minijail.vendor \
+    libcodec2_hidl@1.2.vendor \
+    libcodec2_soft_common.vendor \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxCore \
