@@ -15,3 +15,9 @@ cd kernel/xiaomi/fog
 rm -rf Android.bp
 rm -rf techpack/audio/Android.bp
 cd ../../..
+
+# Fingerprint gesture fixup
+cp device/xiaomi/fog/patches/0001-keyboards-make-KEY_HOME-override.patch frameworks/base
+cd frameworks/base
+git apply -v 0001-keyboards-make-KEY_HOME-override.patch
+cd ../..

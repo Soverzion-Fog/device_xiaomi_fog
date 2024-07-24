@@ -1,0 +1,28 @@
+commit f304dccf4b286d3f87617a53fac7ffd9e9522f9c
+Author: Iverz <iverzasterix@gmail.com>
+Date:   Thu Jul 25 07:05:02 2024 +0000
+
+    keyboards: make KEY_HOME override
+    
+    - The goodix fingerprint sensor always sends KEY_HOME to userspace when
+      it is touched. This is really annoying because the position of the
+      fingerprint scanner and triggers a strange focus change in Android and
+      could not be fixed by editing keylayout files.
+    
+    Some device like Redmi 10C/10 Power got fingerprint gesture bug, make the KEY_HOME override directly only for device while got the bugs.
+    
+    Signed-off-by: Iverz <iverzasterix@gmail.com>
+
+diff --git a/data/keyboards/Generic.kl b/data/keyboards/Generic.kl
+index c81473dd..b0e8fe95 100644
+--- a/data/keyboards/Generic.kl
++++ b/data/keyboards/Generic.kl
+@@ -191,7 +191,7 @@ key 168   MEDIA_REWIND
+ key 169   CALL
+ # key 170 "KEY_ISO"
+ key 171   MUSIC
+-key 172   HOME
++# key 172   HOME
+ key 173   REFRESH
+ # key 174 "KEY_EXIT"
+ # key 175 "KEY_MOVE"
