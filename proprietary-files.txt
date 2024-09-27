@@ -120,11 +120,11 @@ vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
 
 # Audio HAL - from MIUI
-vendor/lib/hw/audio.primary.bengal.so
+vendor/lib/hw/audio.primary.bengal.so;FIX_SONAME
 vendor/lib/libaudio_log_utils.so
 
 # Audio Libraries - from MIUI
-vendor/lib/liba2dpoffload.so
+vendor/lib/liba2dpoffload.so;FIX_SONAME
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -947,7 +947,7 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
 # Power-off charging daemon - from MIUI
-bin/charger:bin/chargeonlymode
+bin/charger:bin/chargeonlymode;FIX_SONAME
 
 # QCC
 vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service
