@@ -17,6 +17,9 @@ git clone -b uvite-sm6225 https://gitlab.com/soverzion-hq/proprietary_vendor_xia
 # Clone LineageOS' hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
+# Clone sign key
+git clone https://github.com/Soverzion-HQ/vendor_lineage-priv vendor/lineage-priv
+
 # Kernel fixups
 cd kernel/xiaomi/fog
 rm -rf Android.bp
