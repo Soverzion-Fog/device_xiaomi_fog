@@ -11,6 +11,9 @@ git reset --hard 036a81dd0ad2e9b8d618d0751c50bf0ed0a66eea
 git revert --no-edit df6112d9b117bc4592a64e3cdf7883da033d42d0
 cd ../../..
 
+# Clone MiuiCamera
+git clone -b uvite-sm6225 https://gitlab.com/soverzion-hq/proprietary_vendor_xiaomi_camera vendor/xiaomi/camera
+
 # Clone LineageOS' hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
