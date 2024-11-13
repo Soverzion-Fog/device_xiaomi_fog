@@ -10,6 +10,9 @@ git clone --depth=1 -b fog-r-oss-staging https://github.com/alternoegraha/fog_ke
 # Clone LineageOS' hardware/xiaomi
 git clone -b lineage-20 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
 
+# Clone MiuiCamera
+git clone -b uvite-sm6225 https://gitlab.com/soverzion-hq/proprietary_vendor_xiaomi_camera vendor/xiaomi/camera
+
 # Kernel fixups
 cd kernel/xiaomi/fog
 rm -rf Android.bp
