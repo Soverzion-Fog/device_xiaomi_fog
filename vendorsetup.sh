@@ -13,6 +13,9 @@ git clone -b lineage-22.0 https://github.com/LineageOS/android_hardware_xiaomi h
 # Clone MiuiCamera
 git clone -b uvite-sm6225 https://gitlab.com/soverzion-hq/proprietary_vendor_xiaomi_camera vendor/xiaomi/camera
 
+# Clone private keys
+git clone https://github.com/Soverzion-HQ/vendor_lineage-priv vendor/lineage-priv
+
 # Kernel fixups
 cd kernel/xiaomi/fog
 rm -rf Android.bp
