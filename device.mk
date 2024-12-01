@@ -233,6 +233,24 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# Init
+PRODUCT_PACKAGES += \
+    init.qcom.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.usb.sh
+
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    fstab.qcom.ramdisk \
+    fstab.zram \
+    init.qcom.power.rc \
+    init.qcom.rc \
+    init.qcom.usb.rc \
+    init.recovery.qcom.rc \
+    init.target.rc \
+    ueventd.qcom.rc
+
 # Inherit several Android Go Configurations(Beneficial for everyone, even on non-Go devices)
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
 PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
@@ -377,24 +395,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     librmnetctl \
     libxml2
-
-# Rootdir
-PRODUCT_PACKAGES += \
-    init.qcom.early_boot.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.usb.sh \
-    init.qcom.sh
-
-PRODUCT_PACKAGES += \
-    fstab.qcom \
-    fstab.qcom_ramdisk \
-    fstab.zram \
-    init.qcom.power.rc \
-    init.qcom.rc \
-    init.qcom.usb.rc \
-    init.recovery.qcom.rc \
-    init.target.rc \
-    ueventd.qcom.rc
 
 # Sensors
 PRODUCT_PACKAGES += \
