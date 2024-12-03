@@ -125,3 +125,9 @@ persist.log.tag.TrafficStats=S
 persist.log.tag.ContrastColorUtil=S
 persist.log.tag.GRALLOC=S
 persist.log.tag.gralloc4=S
+
+# Spark-OS
+ro.spark.device.name=fog
+ro.spark.group.url=https://t.me/drenzzzdiscuzz
+ro.spark.maintainer=Drenzzz.
+ro.spark.maintainer.username=realdrenzzz
