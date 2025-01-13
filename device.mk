@@ -152,7 +152,6 @@ PRODUCT_PACKAGES += \
     libsdmcore \
     libsdmutils \
     libtinyxml \
-    memtrack.bengal \
     vendor.display.config@1.14 \
     vendor.display.config@1.11.vendor \
     vendor.display.config@2.0 \
