@@ -299,7 +299,7 @@
     },
     {
       "Name": "DoubleTapToWake",
-      "Path": "/proc/tp_gesture",
+      "Path": "/sys/touchpanel/double_tap",
       "Values": [
         "0",
         "1"
